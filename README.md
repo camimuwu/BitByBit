@@ -1,2 +1,1 @@
-# Bitbybit presenta
-# Nombre: . . .
+
