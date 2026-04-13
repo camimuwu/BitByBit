@@ -1,0 +1,52 @@
+#include<stdio.h>
+
+int a;
+
+int main(){
+    do{
+        printf("Bienvenido\n");
+        printf("Intro\n");
+        printf("1.- Suma\n");
+        printf("2.- Resta\n");
+        printf("3.- Division\n");
+        printf("4.- Multiplicacion\n");
+
+        printf("Ingrese la opcion a elegir: \n");
+        scanf("%d", &a);
+
+        switch (a){
+
+            case 0:
+                printf("Saliendo...\n");
+                /* code */
+                break;
+
+            case 1:
+                printf("Hola\n");
+                /* code */
+                break;
+            case 2:
+                printf("Adios\n");
+                /* code */
+                break;
+            case 3:
+                printf("Chiste\n");
+                /* code */
+                break;
+            case 4:
+                printf("Enojado\n");
+                /* code */
+                break;
+        
+        default:
+            printf("Opcion invalida\n");
+            
+        }
+
+    }
+    while (a != 0);
+
+    return 0;
+
+
+}
