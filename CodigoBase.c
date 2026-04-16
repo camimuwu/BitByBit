@@ -2,8 +2,10 @@
 
 int a;
 
-int main(){
-    do{
+int main()
+{
+    do
+    {
         printf("Bienvenido\n");
         printf("Intro\n");
         printf("1.- Suma\n");
@@ -14,7 +16,8 @@ int main(){
         printf("Ingrese la opcion a elegir: \n");
         scanf("%d", &a);
 
-        switch (a){
+        switch (a)
+        {
 
             case 0:
                 printf("Saliendo...\n");
@@ -22,20 +25,27 @@ int main(){
                 break;
 
             case 1:
-                printf("Hola\n");
-                /* code */
+                printf("Precione una tecla para inicar\n");
+                while (getchar() != '\n' && getchar() != EOF);
+                getchar(); 
                 break;
+
             case 2:
-                printf("Adios\n");
-                /* code */
+                printf("Precione una tecla para inicar\n");
+                while (getchar() != '\n' && getchar() != EOF);
+                getchar(); 
                 break;
+
             case 3:
-                printf("Chiste\n");
-                /* code */
+                printf("Precione una tecla para inicar\n");
+                while (getchar() != '\n' && getchar() != EOF);
+                getchar(); 
                 break;
+
             case 4:
-                printf("Enojado\n");
-                /* code */
+                printf("Precione una tecla para inicar\n");
+                while (getchar() != '\n' && getchar() != EOF);
+                getchar(); 
                 break;
         
         default:
