@@ -1,4 +1,9 @@
 #include<stdio.h>
+#include "Suma.h"
+#include "Resta.h"
+#include "Division.h"
+#include "Multiplicacion.h"
+
 
 int a;
 
@@ -21,35 +26,49 @@ int main()
 
             case 0:
                 printf("Saliendo...\n");
-                /* code */
                 break;
 
             case 1:
                 printf("Precione una tecla para inicar\n");
                 while (getchar() != '\n' && getchar() != EOF);
                 getchar(); 
+
+                suma();
+
                 break;
 
             case 2:
                 printf("Precione una tecla para inicar\n");
                 while (getchar() != '\n' && getchar() != EOF);
                 getchar(); 
+
+                resta();
+
                 break;
 
             case 3:
                 printf("Precione una tecla para inicar\n");
                 while (getchar() != '\n' && getchar() != EOF);
-                getchar(); 
+                getchar();
+
+                division();
+
                 break;
 
             case 4:
                 printf("Precione una tecla para inicar\n");
                 while (getchar() != '\n' && getchar() != EOF);
-                getchar(); 
+                getchar();
+
+                multiplicacion();
+
                 break;
         
         default:
             printf("Opcion invalida\n");
+            printf("Precione una tecla para volver al menu\n");
+            while (getchar() != '\n' && getchar() != EOF);
+            getchar();
             
         }
 
