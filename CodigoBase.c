@@ -60,9 +60,7 @@ int main()
                 while (getchar() != '\n' && getchar() != EOF);
                 getchar();
 
-                int a, b;
-                int mult = multiplicacion(a, b);
-                printf("%d", mult)
+                multiplicacion();
 
                 break;
         
