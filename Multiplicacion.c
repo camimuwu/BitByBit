@@ -1,14 +1,36 @@
 #include "Multiplicacion.h"
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
-int mult;
-int multiplicacion(int a, int b){
+void multiplicacion(){
 
-    printf("2");
-    a=2
-    printf("3");
-    b=3;
-    mult=a*b;
+    int min, max, respuesta, correcta;
+    min = 1;
+    max = 10;
 
-    return mult;
+    srand(time(NULL));
+
+    for (int i = 0; i<3; i++){
+
+        int a = (rand() % max) + min;
+        int b = (rand() % max) + min;
+
+        printf("Multiplicacion a resolver: %d * %d: ", a, b);
+        scanf("%d", &respuesta);
+
+        correcta = a*b;
+
+        if (respuesta == correcta){
+            printf("Correcto\n");
+        }
+        else {
+            printf("Respuesta correcta: %d\n", correcta);
+        }
+
+    }
+    
+
+
+
 }
