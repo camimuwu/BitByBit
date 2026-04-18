@@ -1,19 +1,35 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "process",
-            "label": "C/C++ Compile Run: C/C++ Compile Run: Compile",
-            "command": "powershell.exe",
-            "args": [
-                "-NoProfile",
-                "-NonInteractive",
-                "-Command",
-                "chcp 65001 | Out-Null; & gcc -Wall -Wextra -g3 c:\\Users\\camif\\BitByBit\\BitByBit\\CodigoBase.c c:\\Users\\camif\\BitByBit\\BitByBit\\Suma.c c:\\Users\\camif\\BitByBit\\BitByBit\\Resta.c c:\\Users\\camif\\BitByBit\\BitByBit\\Division.c c:\\Users\\camif\\BitByBit\\BitByBit\\Multiplicacion.c -o c:\\Users\\camif\\BitByBit\\BitByBit\\output\\CodigoBase.exe; exit $LASTEXITCODE"
-            ],
-            "problemMatcher": [
-                "$gcc"
-            ]
-        }
-    ]
-}    
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"label": "C/C++ Compile Run: C/C++ Compile Run: Compile",
+			"command": "powershell.exe",
+			"args": [
+				"-NoProfile",
+				"-NonInteractive",
+				"-Command",
+				"chcp 65001 | Out-Null; & gcc -Wall -Wextra -g3 c:\\Users\\camif\\BitByBit\\BitByBit\\CodigoBase.c c:\\Users\\camif\\BitByBit\\BitByBit\\Suma.c c:\\Users\\camif\\BitByBit\\BitByBit\\Resta.c c:\\Users\\camif\\BitByBit\\BitByBit\\Division.c c:\\Users\\camif\\BitByBit\\BitByBit\\Multiplicacion.c -o c:\\Users\\camif\\BitByBit\\BitByBit\\output\\CodigoBase.exe; exit $LASTEXITCODE"
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"label": "Compile C Project",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-NoProfile",
+				"-NonInteractive",
+				"-Command",
+				"chcp 65001 | Out-Null; & gcc -Wall -Wextra -g3 c:\\Users\\camif\\OneDrive\\Desktop\\BitByBit\\BitByBit\\CodigoBase.c c:\\Users\\camif\\OneDrive\\Desktop\\BitByBit\\BitByBit\\Suma.c c:\\Users\\camif\\OneDrive\\Desktop\\BitByBit\\BitByBit\\Resta.c c:\\Users\\camif\\OneDrive\\Desktop\\BitByBit\\BitByBit\\Division.c c:\\Users\\camif\\OneDrive\\Desktop\\BitByBit\\BitByBit\\Multiplicacion.c -o c:\\Users\\camif\\OneDrive\\Desktop\\BitByBit\\BitByBit\\output\\CodigoBase.exe; exit $LASTEXITCODE"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/camif/BitByBit/BitByBit",
-      "program": "c:/Users/camif/BitByBit/BitByBit/build/Debug/outDebug",
+      "cwd": "c:/Users/camif/OneDrive/Desktop/BitByBit",
+      "program": "c:/Users/camif/OneDrive/Desktop/BitByBit/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
