@@ -14,7 +14,7 @@ Roles:
     Cami -> Gestionadora de tareas
 
 Definición de roles: 
-    Isa -> Encarcargada del desarrollo de funcionalidades principales del proyecto, actuando como líder técnica. 
+    Isa -> Encargada del desarrollo de funcionalidades principales del proyecto, actuando como líder técnica. 
     Mari -> Encargada en complementar el desarrollo y debugging del proyecto. 
     Made -> Encargada de la organización general del proyecto, coordinando el trabajo del equipo, y lidera la planificación del contenido del video de presentación, incluyendo guión y edición. 
     Cami -> Encargada de la administración del trabajo en GitHub, incluyendo la creación y seguimiento de issues, y actualización del project board.  
