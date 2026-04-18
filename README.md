@@ -1,11 +1,11 @@
 Resumen de la problemática a solucionar: 
-    Buscamos solucionar las dificultades que presentan muchos estudiantes de enseñanza media con los conceptos basicos de matemáticas. 
+    Buscamos solucionar las dificultades que presentan muchos estudiantes de enseñanza media con los conceptos básicos de matemáticas. 
 
 Objetivo general del proyecto: 
-    Nuestro objetivo general es a traves de ejercicios progresivos en un limite de tiempo consolidar conceptos claves fundamentales en la gran parte de carreras universitarias.
+    Nuestro objetivo general es a través de ejercicios progresivos en un límite de tiempo consolidar conceptos clave fundamentales en la gran parte de carreras universitarias.
 
 Objetivos del proyecto: 
-    Nuestros objetivos especificos del proyecto son: crear un código que muestre la interfaz, realizar arreglos en c, generar funciones para cada item matemático y crear una función para que se generen números aleatorios. 
+    Nuestros objetivos específicos del proyecto son: crear un código que muestre la interfaz, realizar arreglos en c, generar funciones para cada ítem matemático y crear una función para que se generen números aleatorios. 
 
 Roles: 
     Isa -> Programadora
@@ -20,9 +20,9 @@ Definición de roles:
     Cami -> Encargada de la administración del trabajo en GitHub, incluyendo la creación y seguimiento de issues, y actualización del project board.  
 
 Avances logrados:
-    Esqueleto del código base, números aleatorios funcionables, funciones de operaciones matematicas. 
+    Esqueleto del código base, números aleatorios funcionables, funciones de operaciones matemáticas. 
 
-Proximos pasos: 
+Próximos pasos: 
     Implementar el código en C++, implementar una función de tiempo. 
 
 Cambios de reglas de entrega: 
