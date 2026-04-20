@@ -15,7 +15,7 @@ int main()
     {
         printf("Bienvenido MathCore by BitByBit\n");
         printf("Intro\n");
-        printf("0.- Si desea salir del programa")
+        printf("0.- Si desea salir del programa");
         printf("1.- Suma\n");
         printf("2.- Resta\n");
         printf("3.- Division\n");
