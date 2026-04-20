@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<windows.h>
 #include "Suma.h"
 #include "Resta.h"
 #include "Division.h"
@@ -11,14 +13,15 @@ int main()
 {
     do
     {
-        printf("Bienvenido\n");
+        printf("Bienvenido MathCore by BitByBit\n");
         printf("Intro\n");
+        printf("0.- Si desea salir del programa")
         printf("1.- Suma\n");
         printf("2.- Resta\n");
         printf("3.- Division\n");
         printf("4.- Multiplicacion\n");
 
-        printf("Ingrese la opcion a elegir: \n");
+        printf("Ingrese la opcion a elegir: ");
         scanf("%d", &a);
 
         switch (a)
@@ -29,7 +32,7 @@ int main()
                 break;
 
             case 1:
-                printf("Precione una tecla para inicar\n");
+                printf("Tienes 30 segundos para resolver las ecuaciones. Preciona enter para empezar\n");
                 while (getchar() != '\n' && getchar() != EOF);
                 getchar(); 
 
@@ -38,7 +41,7 @@ int main()
                 break;
 
             case 2:
-                printf("Precione una tecla para inicar\n");
+                printf("Tienes 30 segundos para resolver las ecuaciones. Preciona enter para empezar\n");
                 while (getchar() != '\n' && getchar() != EOF);
                 getchar(); 
 
@@ -47,7 +50,7 @@ int main()
                 break;
 
             case 3:
-                printf("Precione una tecla para inicar\n");
+                printf("Tienes 30 segundos para resolver las ecuaciones. Preciona enter para empezar\n");
                 while (getchar() != '\n' && getchar() != EOF);
                 getchar();
 
@@ -56,22 +59,19 @@ int main()
                 break;
 
             case 4:
-                printf("Precione una tecla para inicar\n");
+                printf("Tienes 30 segundos para resolver las ecuaciones. Preciona enter para empezar\n");
                 while (getchar() != '\n' && getchar() != EOF);
                 getchar();
 
-                int a, b;
-                int mult = multiplicacion(a, b);
-                printf("%d", mult)
+                multiplicacion();
 
                 break;
         
         default:
             printf("Opcion invalida\n");
-            printf("Precione una tecla para volver al menu\n");
+            printf("Precione la tecla enter para volver al menu principal\n");
             while (getchar() != '\n' && getchar() != EOF);
             getchar();
-            
         }
 
     }
