@@ -23,13 +23,7 @@ Avances logrados:
     Esqueleto del código base, números aleatorios funcionables, funciones de operaciones matemáticas. 
 
 Próximos pasos: 
-    Implementar el código en C++, implementar una función de tiempo. 
-
-Cambios de reglas de entrega: 
-
+    Implementar el código en C++, mostrar en pantalla que el tiempo corre en paralelo a las preguntas. 
 
 Documentos adicionales y anexo:
-
-
-Referencias utilizadas: 
-    
+    [Video utilizado para el tiempo](https://vt.tiktok.com/ZS9LJhd2n/)
