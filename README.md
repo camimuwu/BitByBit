@@ -33,7 +33,8 @@ Documentos adicionales y anexo:
     2. [Resta](https://github.com/user-attachments/assets/8ca5f7af-930a-4545-85d7-bd70dad77b4e)
     3. [Multiplicación](https://github.com/user-attachments/assets/14ded3f2-b3a4-457a-bbb9-ecaa745229b1)
     4. [Division](https://github.com/user-attachments/assets/37a6d3da-1dab-4a19-84cf-c810b6c72c30)
-
+5. [Codigo Base]
+![image alt](https://github.com/camimuwu/BitByBit/blob/166423d7a3f317f615bd2bdcb22718bb5e080902/CodigoBase.c%20-%20BitByBit%20-%20Visual%20Studio%20Code%204_24_2026%209_06_22%20PM.png)
 
 
 
