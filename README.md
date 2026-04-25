@@ -29,14 +29,10 @@ Referencias:
     [Video utilizado para el tiempo](https://vt.tiktok.com/ZS9LJhd2n/)
 
 Documentos adicionales y anexo:
-    1. Suma:    
-https://github.com/user-attachments/assets/9f9888d3-e026-4ee2-9d75-ce8adec7a535
-    2. Resta: 
-https://github.com/user-attachments/assets/8ca5f7af-930a-4545-85d7-bd70dad77b4e
-    3. Multiplicación:
-https://github.com/user-attachments/assets/14ded3f2-b3a4-457a-bbb9-ecaa745229b1
-    4. Division: 
-https://github.com/user-attachments/assets/37a6d3da-1dab-4a19-84cf-c810b6c72c30
+    1. [Suma](https://github.com/user-attachments/assets/9f9888d3-e026-4ee2-9d75-ce8adec7a535)
+    2. [Resta](https://github.com/user-attachments/assets/8ca5f7af-930a-4545-85d7-bd70dad77b4e)
+    3. [Multiplicación](https://github.com/user-attachments/assets/14ded3f2-b3a4-457a-bbb9-ecaa745229b1)
+    4. [Division](https://github.com/user-attachments/assets/37a6d3da-1dab-4a19-84cf-c810b6c72c30)
 
 
 
