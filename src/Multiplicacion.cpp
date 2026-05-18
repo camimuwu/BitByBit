@@ -3,7 +3,7 @@
 
 #include<time.h>
 
-void multiplicacion(){
+void Multiplicacion::jugar(){
 
     int min, max, respuesta, correcta;
     min = 1;

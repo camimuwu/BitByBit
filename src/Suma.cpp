@@ -3,7 +3,7 @@
 
 #include<time.h>
 
-void suma(){
+void Suma::jugar(){
 
     int min, max, respuesta, correcta;
     min = 1;

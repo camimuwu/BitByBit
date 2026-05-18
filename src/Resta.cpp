@@ -3,7 +3,7 @@
 
 #include<time.h>
 
-void resta(){
+void Resta::jugar(){
 
     int min, max, respuesta, correcta;
     min = 1;

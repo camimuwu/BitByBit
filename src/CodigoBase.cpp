@@ -1,5 +1,4 @@
 #include<iostream>
-
 #include"Suma.hpp"
 #include"Resta.hpp"
 #include"Division.hpp"
@@ -7,6 +6,11 @@
 
 
 int main(){
+
+    Suma suma;
+    Resta resta;
+    Division division;
+    Multiplicacion multiplicacion;
 
 int a;
 
@@ -35,7 +39,7 @@ int a;
                 std::cin.ignore();
                 std::cin.get();
 
-                suma();
+                suma.jugar();
 
                 break;
 
@@ -44,7 +48,7 @@ int a;
                 std::cin.ignore();
                 std::cin.get();
 
-                resta();
+                resta.jugar();
 
                 break;
 
@@ -53,7 +57,7 @@ int a;
                 std::cin.ignore();
                 std::cin.get();
 
-                division();
+                division.jugar();
 
                 break;
 
@@ -62,7 +66,7 @@ int a;
                 std::cin.ignore();
                 std::cin.get();
 
-                multiplicacion();
+                multiplicacion.jugar();
 
                 break;
         
@@ -77,6 +81,5 @@ int a;
     while (a != 0);
 
     return 0;
-
 
 }

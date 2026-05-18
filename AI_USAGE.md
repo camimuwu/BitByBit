@@ -1,3 +1,4 @@
+**HITO 1**
 1. Herramientas utilizadas
 - ChatGPT
 - Gemini
@@ -18,3 +19,17 @@ Se utilizó para resolver dudas sobre programación en C y para acelerar el proc
 4. Observaciones
 - Se corrigieron algunos errores que impedían la compilación 
 - Varias veces tuvimos que acudir al ayudante Gabriel ya que no lograbamos resolverlo con IA 
+
+**HITO 2**
+1. Herramientas utilizadas
+- ChatGPT
+
+2. Uso realizado
+Se utilizó para resolver dudas con clases y encontrar errores en los .cpp
+
+3. Prompts utilizados
+- "Donde declaro la clase?"
+- "Es más optimo con o sin switch case?"
+- "Debo borrar los .hpp si utilizo clases?"
+
+4. Observaciones

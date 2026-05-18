@@ -1,1 +1,7 @@
-void suma();
+class Suma{
+
+    public:
+
+        void jugar();
+
+};

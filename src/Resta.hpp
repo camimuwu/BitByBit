@@ -1,1 +1,6 @@
-void resta();
+class Resta{
+
+    public:
+
+        void jugar();
+};

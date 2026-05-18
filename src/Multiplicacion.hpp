@@ -1,1 +1,7 @@
-void multiplicacion();
+class Multiplicacion {
+
+    public: 
+
+        void jugar();
+
+};

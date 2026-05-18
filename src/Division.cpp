@@ -3,7 +3,7 @@
 
 #include<time.h>
 
-void division()
+void Division::jugar()
 {
     int aq, r1q, r2q;
     int minq = 1;

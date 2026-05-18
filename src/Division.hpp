@@ -1,1 +1,6 @@
-void division();
+class Division{
+
+    public:
+
+        void jugar();
+};
