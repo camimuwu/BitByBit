@@ -1,15 +1,15 @@
 #include<iostream>
-#include<string>
+
 #include"Suma.hpp"
 #include"Resta.hpp"
 #include"Division.hpp"
 #include"Multiplicacion.hpp"
 
 
+int main(){
+
 int a;
 
-int main()
-{
     do
     {
         std::cout << "Bienvenido a MathCore by BitByBit\n";

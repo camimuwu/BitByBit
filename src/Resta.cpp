@@ -1,6 +1,6 @@
 #include"Resta.hpp"
 #include<iostream>
-#include<string>
+
 #include<time.h>
 
 void resta(){
@@ -37,7 +37,7 @@ void resta(){
         }
 
     }
-    std::cout << "El tiempo a acabado!\n";
+    std::cout << "El tiempo ha acabado!\n";
     std::cout << "\n";
     std::cout << "Total de ecuaciones resueltas: " <<  correctas + incorrectas << std::endl;
     std::cout << "Total de respuestas correctas: " << correctas << std::endl;
