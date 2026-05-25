@@ -3,7 +3,7 @@
 #include"Resta.hpp"
 #include"Division.hpp"
 #include"Multiplicacion.hpp"
-
+#include"Potencia.hpp"
 
 int main(){
 
@@ -11,7 +11,8 @@ int main(){
     Resta resta;
     Division division;
     Multiplicacion multiplicacion;
-
+    Potencia potencia;
+    
 int a;
 
     do
@@ -23,6 +24,7 @@ int a;
         std::cout << "2.- Resta\n";
         std::cout << "3.- Division\n";
         std::cout << "4.- Multiplicacion\n";
+        std::cout << "5.- Potencia\n";
 
         std::cout << "Ingrese la opcion a elegir: ";
         std::cin >> a;
@@ -67,6 +69,15 @@ int a;
                 std::cin.get();
 
                 multiplicacion.jugar();
+
+                break;
+            
+            case 5:
+                std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
+                std::cin.ignore();
+                std::cin.get();
+
+                potencia.jugar();
 
                 break;
         
