@@ -4,6 +4,7 @@
 #include"Division.hpp"
 #include"Multiplicacion.hpp"
 #include"Potencia.hpp"
+#include"Sol_Ecuaciones.hpp"
 
 int main(){
 
@@ -12,6 +13,7 @@ int main(){
     Division division;
     Multiplicacion multiplicacion;
     Potencia potencia;
+    Sol_Ecuaciones sol_ecuaciones;
     
 int a;
 
@@ -25,6 +27,7 @@ int a;
         std::cout << "3.- Division\n";
         std::cout << "4.- Multiplicacion\n";
         std::cout << "5.- Potencia\n";
+        std::cout << "6.- Soluciones de ecuaciones\n";
 
         std::cout << "Ingrese la opcion a elegir: ";
         std::cin >> a;
@@ -71,13 +74,22 @@ int a;
                 multiplicacion.jugar();
 
                 break;
-            
+
             case 5:
                 std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
                 std::cin.ignore();
                 std::cin.get();
 
                 potencia.jugar();
+
+                break;
+            
+            case 6:
+                std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
+                std::cin.ignore();
+                std::cin.get();
+
+                sol_ecuaciones.jugar();
 
                 break;
         
