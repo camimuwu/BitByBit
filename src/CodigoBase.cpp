@@ -1,10 +1,11 @@
 #include<iostream>
-#include"Suma.hpp"
-#include"Resta.hpp"
-#include"Division.hpp"
-#include"Multiplicacion.hpp"
-#include"Potencia.hpp"
-#include"Sol_Ecuaciones.hpp"
+#include"Suma.h"
+#include"Resta.h"
+#include"Division.h"
+#include"Multiplicacion.h"
+#include"Potencia.h"
+#include"Raices.h"
+#include"Operacion.h"
 
 int main(){
 
@@ -13,8 +14,8 @@ int main(){
     Division division;
     Multiplicacion multiplicacion;
     Potencia potencia;
-    Sol_Ecuaciones sol_ecuaciones;
-    
+    Raices raices;
+
 int a;
 
     do
@@ -39,66 +40,73 @@ int a;
                 std::cout << "Saliendo...\n";
                 break;
 
-            case 1:
+            case 1:{
                 std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
                 std::cin.ignore();
                 std::cin.get();
 
-                suma.jugar();
+                Suma op;
+                op.operar();
 
                 break;
-
-            case 2:
+            }
+            case 2:{
                 std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
                 std::cin.ignore();
                 std::cin.get();
 
-                resta.jugar();
+                Resta op;
+                op.operar();
 
                 break;
-
-            case 3:
+            }
+            case 3:{
                 std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
                 std::cin.ignore();
                 std::cin.get();
 
-                division.jugar();
+                Division op;
+                op.operar();
 
                 break;
-
-            case 4:
+            }
+            case 4:{
                 std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
                 std::cin.ignore();
                 std::cin.get();
 
-                multiplicacion.jugar();
+                Multiplicacion op;
+                op.operar();
 
                 break;
-
-            case 5:
+            }
+            case 5:{
                 std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
                 std::cin.ignore();
                 std::cin.get();
 
-                potencia.jugar();
+                Potencia op;
+                op.operar();
 
                 break;
-            
-            case 6:
+            }
+            case 6:{
                 std::cout << "Tienes 30 segundos para resolver las ecuaciones. Presiona enter para empezar\n";
                 std::cin.ignore();
                 std::cin.get();
 
-                sol_ecuaciones.jugar();
+                Raices op;
+                op.operar();
 
                 break;
-        
+            }
         default:
             std::cout << "Opcion invalida\n";
             std::cout << "Presione la tecla enter para volver al menu principal\n";
             std::cin.ignore();
             std::cin.get();
-        }
+        } 
+        
 
     }
     while (a != 0);

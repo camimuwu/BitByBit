@@ -1,10 +1,10 @@
-#include"Sol_Ecuaciones.hpp"
+#include"Raices.h"
 #include<iostream>
 #include <cmath>
 
 #include<time.h>
 
-void Sol_Ecuaciones::jugar(){
+void Raices::operar(){
 
     int x1, x2, discriminante, raiz_entera, respuestap, respuestan;
     double raiz;
@@ -19,11 +19,11 @@ void Sol_Ecuaciones::jugar(){
 
     while (difftime(time(NULL), inicio) < 30){
 
-        int a = (rand() % max) + min;
-        int b = (rand() % max) + min;
+        setA((rand() % max) + min);
+        setB((rand() % max) + min);
         int c = (rand() % max) + min;
 
-        discriminante = (b * b) - (4 * a * c);
+        discriminante = (getB() * getB()) - (4 * getA() * c);
 
         if (discriminante > 0) {
             raiz = sqrt(discriminante);
@@ -31,12 +31,12 @@ void Sol_Ecuaciones::jugar(){
 
             if ( raiz == raiz_entera) {
 
-                if ((-b + raiz_entera) % (2 * a) == 0 && (-b - raiz_entera) % (2 * a) == 0) {
+                if ((-(int)getB() + raiz_entera) % (2 * (int)getA()) == 0 && (-(int)getB() - raiz_entera) % (2 * (int)getA()) == 0) {
 
-                    x1 = (-b + raiz_entera) / (2 * a);
-                    x2 = (-b - raiz_entera) / (2 * a);
+                    x1 = (-getB() + raiz_entera) / (2 * getA());
+                    x2 = (-getB() - raiz_entera) / (2 * getA());
                         
-                    std::cout << "Ecuacion a resolver: " << a << "x^2 + " << b << "x + " << c << std::endl;
+                    std::cout << "Ecuacion a resolver: " << getA() << "x^2 + " << getB() << "x + " << c << std::endl;
                     
                     std::cout << "Solucion positiva = ";
                     std::cin >> respuestap;

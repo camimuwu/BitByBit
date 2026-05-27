@@ -1,13 +1,13 @@
-#include"Division.hpp"
+#include"Division.h"
 #include<iostream>
 
 #include<time.h>
 
-void Division::jugar()
+void Division::operar()
 {
-    int aq, r1q, r2q;
-    int minq = 1;
-    int maxq = 10;
+    int respuesta;
+    int min = 1;
+    int max = 10;
     int correctas = 0, incorrectas = 0;
     time_t inicio;
 
@@ -17,13 +17,13 @@ void Division::jugar()
 
     while (difftime(time(NULL), inicio) < 30)
     {
-        r1q = (rand() % maxq) + minq;
-        r2q = (rand() % maxq) + minq;
+        setA((rand() % max) + min);
+        setB((rand() % max) + min);
 
-        std::cout << "Division a resolver: " << r1q * r2q << " / " << r1q << " = ";
-        std::cin >> aq;
+        std::cout << "Division a resolver: " << getA() * getB() << " / " << getA() << " = ";
+        std::cin >> respuesta;
 
-        if (aq == r2q) 
+        if (respuesta == getB()) 
         {
             std::cout << "Correcto\n";
             std::cout << "\n";
@@ -31,7 +31,7 @@ void Division::jugar()
         }
         else
         {
-            std::cout << "Incorrecto, respuesta correcta: " << r2q << std::endl;
+            std::cout << "Incorrecto, respuesta correcta: " << getB() << std::endl;
             std::cout << "\n";
             incorrectas++;
         }

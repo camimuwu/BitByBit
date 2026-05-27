@@ -1,9 +1,17 @@
-#include"Suma.hpp"
+#include"Suma.h"
 #include<iostream>
 
 #include<time.h>
 
-void Suma::jugar(){
+Suma::Suma(){
+
+}
+
+Suma::~Suma(){
+
+}
+
+void Suma::operar(){
 
     int min, max, respuesta, correcta;
     min = 1;
@@ -17,13 +25,13 @@ void Suma::jugar(){
 
     while (difftime(time(NULL), inicio) < 30){
 
-        int a = (rand() % max) + min;
-        int b = (rand() % max) + min;
+        setA((rand() % max) + min);
+        setB((rand() % max) + min);
 
-        std::cout << "Suma a resolver: " << a << " + " << b << " = ";
+        std::cout << "Suma a resolver: " << getA() << " + " << getB() << " = ";
         std::cin >> respuesta;
 
-        correcta = a+b;
+        correcta = getA() + getB();
 
         if (respuesta == correcta){
             std::cout << "Correcto\n";

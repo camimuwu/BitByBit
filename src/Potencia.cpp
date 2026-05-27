@@ -1,10 +1,10 @@
-#include"Potencia.hpp"
+#include"Potencia.h"
 #include<iostream>
 #include <cmath>
 
 #include<time.h>
 
-void Potencia::jugar() {
+void Potencia::operar() {
     
     int min, max, respuesta, correcta;
     min = 1;
@@ -18,13 +18,13 @@ void Potencia::jugar() {
 
     while (difftime(time(NULL), inicio) < 30){
 
-        int a = (rand() % max) + min;
-        int b = (rand() % max) + min;
+        setA((rand() % max) + min);
+        setB((rand() % max) + min);
 
-        std::cout << "Potencia a resolver: " << a << " ^ " << b << " = ";
+        std::cout << "Potencia a resolver: " << getA() << " ^ " << getB() << " = ";
         std::cin >> respuesta;
 
-        correcta = std::pow(a, b);
+        correcta = std::pow(getA(), getB());
 
         if (respuesta == correcta){
             std::cout << "Correcto\n";
