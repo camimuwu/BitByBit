@@ -4,6 +4,14 @@
 
 #include<time.h>
 
+Raices::Raices(){
+
+}
+
+Raices::~Raices(){
+
+}
+
 void Raices::operar(){
 
     int x1, x2, discriminante, raiz_entera, respuestap, respuestan;

@@ -1,3 +1,5 @@
+#ifndef RESTA_H
+#define RESTA_H
 #include "Operacion.h"
 
 class Resta : 
@@ -12,3 +14,5 @@ class Resta :
 
             void operar();
     };
+
+#endif

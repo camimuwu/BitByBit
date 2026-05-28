@@ -3,6 +3,14 @@
 
 #include<time.h>
 
+Resta::Resta(){
+
+}
+
+Resta::~Resta(){
+
+}
+
 void Resta::operar(){
 
     int min, max, respuesta, correcta;
@@ -12,7 +20,6 @@ void Resta::operar(){
     time_t inicio;
 
     srand(time(NULL));
-
     inicio = time(NULL);
 
     while (difftime(time(NULL), inicio) < 30){

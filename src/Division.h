@@ -1,14 +1,15 @@
+#ifndef DIVISION_H
+#define DIVISION_H
 #include "Operacion.h"
 
-class Division : 
-    public 
-    
-    Operacion{ //Division hereda de operacion
+class Division : public Operacion{ //Division hereda de operacion
 
-        public:
+    public:
 
-            Division();
-            ~Division();
+        Division();
+        ~Division();
 
-            void operar();
+        void operar();
     };
+
+#endif

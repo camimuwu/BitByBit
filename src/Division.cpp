@@ -3,6 +3,14 @@
 
 #include<time.h>
 
+Division::Division(){
+
+}
+
+Division::~Division(){
+
+}
+
 void Division::operar()
 {
     int respuesta;

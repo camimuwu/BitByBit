@@ -4,6 +4,14 @@
 
 #include<time.h>
 
+Potencia::Potencia(){
+
+}
+
+Potencia::~Potencia(){
+
+}
+
 void Potencia::operar() {
     
     int min, max, respuesta, correcta;

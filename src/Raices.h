@@ -1,14 +1,15 @@
+#ifndef RAICES_H
+#define RAICES_H
 #include "Operacion.h"
 
-class Raices : 
-    public 
-    
-    Operacion{ //Raices hereda de operacion
+class Raices : public Operacion{ //Raices hereda de operacion
 
-        public:
+    public:
 
-            Raices();
-            ~Raices();
+        Raices();
+        ~Raices();
 
-            void operar();
+        void operar();
     };
+
+#endif

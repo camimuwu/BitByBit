@@ -21,3 +21,11 @@ void Operacion::setB(float b){
     B = b;
 
 }
+
+float Operacion::getA(){
+    return A;
+}
+
+float Operacion::getB(){
+    return B;
+}

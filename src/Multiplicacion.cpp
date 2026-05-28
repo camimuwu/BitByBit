@@ -3,6 +3,14 @@
 
 #include<time.h>
 
+Multiplicacion::Multiplicacion(){
+
+}
+
+Multiplicacion::~Multiplicacion(){
+
+}
+
 void Multiplicacion::operar(){
 
     int min, max, respuesta, correcta;

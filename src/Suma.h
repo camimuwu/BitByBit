@@ -1,14 +1,15 @@
+#ifndef SUMA_H
+#define SUMA_H
 #include "Operacion.h"
 
-class Suma : 
-    public 
-    
-    Operacion{ //Suma hereda de operacion
+class Suma : public Operacion{ //Suma hereda de operacion
 
-        public:
+    public:
 
-            Suma();
-            ~Suma();
+        Suma();
+        ~Suma();
 
-            void operar();
+        void operar();
     };
+
+#endif
