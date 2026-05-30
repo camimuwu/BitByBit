@@ -5,7 +5,7 @@ Objetivo general del proyecto:
     Nuestro objetivo general es a través de ejercicios progresivos en un límite de tiempo consolidar conceptos clave fundamentales en la gran parte de carreras universitarias.
 
 Objetivos del proyecto: 
-    Nuestros objetivos específicos del proyecto son: crear un código que muestre la interfaz, realizar arreglos en c, generar funciones para cada ítem matemático y crear una función para que se generen números aleatorios. 
+    Nuestros objetivos específicos del proyecto para este Hito 2 son: Pasar el código del lenguaje C al lenguaje C++, crear clase base y clases hijas, añadir constructores, destructores, atributos y métodos, mejorar la funcionalidad y ejecución del límite de tiempo. 
 
 Roles: 
     Isa -> Programadora
@@ -20,10 +20,10 @@ Definición de roles:
     Cami -> Encargada de la administración del trabajo en GitHub, incluyendo la creación y seguimiento de issues, y actualización del project board.  
 
 Avances logrados:
-    Esqueleto del código base, números aleatorios funcionables, funciones de operaciones matemáticas. 
+    Implementación del código en C++, uso de herencia en clases y mejor ejecución del tiempo. 
 
 Próximos pasos: 
-    Implementar el código en C++, mostrar en pantalla que el tiempo corre en paralelo a las preguntas. 
+    Implementar el uso de Qt para obtener una interfaz visual, mostrar en pantalla que el tiempo corre en paralelo a las preguntas.
 
 Referencias: 
     [Video utilizado para el tiempo](https://vt.tiktok.com/ZS9LJhd2n/)

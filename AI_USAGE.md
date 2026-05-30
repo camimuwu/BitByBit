@@ -33,3 +33,5 @@ Se utilizó para resolver dudas con clases y encontrar errores en los .cpp
 - "Debo borrar los .hpp si utilizo clases?"
 
 4. Observaciones
+- Se corrigen errores de compilación, debido a la mal declaración de clases.
+- Tuvimos que reunirnos con el profesor Nicolás Galves para resolver dudas de como implementar clase base e hijas y sobre las herencias.
