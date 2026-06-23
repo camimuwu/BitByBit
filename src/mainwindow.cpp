@@ -19,6 +19,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+// Funciones para manejar los botones de operaciones
 void MainWindow::on_sumaButton_clicked()
 {
     iniciarJuego(1);
@@ -49,6 +50,7 @@ void MainWindow::on_raicesButton_clicked()
     iniciarJuego(6);
 }
 
+// Funciones para manejar el juego
 void MainWindow::iniciarJuego(int operacion)
 {
     operacionActual = operacion;
@@ -64,6 +66,7 @@ void MainWindow::iniciarJuego(int operacion)
     timer->start(1000);
 }
 
+// Funciones para generar preguntas y manejar respuestas
 void MainWindow::generarPregunta()
 {
     int min = 1, max = 10;
@@ -105,6 +108,7 @@ void MainWindow::generarPregunta()
     ui->resultadoLabel->setText("");
 }
 
+// Función para manejar la respuesta del usuario
 void MainWindow::on_responderButton_clicked()
 {
     int respuesta = ui->respuestaLineEdit->text().toInt();
@@ -129,6 +133,7 @@ void MainWindow::on_responderButton_clicked()
     timerRespuesta->start(1000);
 }
 
+// Funciones para manejar el tiempo y finalizar el juego
 void MainWindow::actualizarTiempo()
 {
     tiempoRestante--;
@@ -140,6 +145,7 @@ void MainWindow::actualizarTiempo()
     }
 }
 
+// Función para finalizar el juego y mostrar resultados
 void MainWindow::terminarJuego()
 {
     timer->stop();
@@ -150,6 +156,7 @@ void MainWindow::terminarJuego()
     ui->stackedWidget->setCurrentIndex(2);
 }
 
+// Función para volver al menú principal
 void MainWindow::on_volverButton_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);

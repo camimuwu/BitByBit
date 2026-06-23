@@ -5,6 +5,7 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
 qt_standard_project_setup()
 
+//Define el ejecutable y los archivos fuente del proyecto
 qt_add_executable(Mathcore
     WIN32 MACOSX_BUNDLE
     main.cpp
