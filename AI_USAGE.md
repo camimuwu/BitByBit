@@ -35,3 +35,18 @@ Se utilizó para resolver dudas con clases y encontrar errores en los .cpp
 4. Observaciones
 - Se corrigen errores de compilación, debido a la mal declaración de clases
 - Tuvimos que reunirnos con el profesor Nicolás Galves para resolver dudas de como implementar clase base e hijas y del uso de herencias
+
+**HITO 3**
+1. Herramientas utilizadas
+- Claude
+
+2. Uso realizado
+Se utilizó para resolver dudas con Qt y los traspasos de sus archivos
+
+4. Prompts utilizados
+- "Cómo importo los archivos del repositorio al proyecto?"
+- "Cómo subo mi proyecto de Qt a GitHub?"
+
+5. Observaciones
+- Se utilizó CMake para importar los archivos del proyecto
+- Al no saber como subir los archivos de Qt al repositorio, los terminamos copiando y pegando directamente a la carpeta, pero al final se resolvió el problema
