@@ -24,8 +24,8 @@ qt_add_executable(BitByBit
     Multiplicacion.h
     Potencia.cpp
     Potencia.h
-    Raices.cpp
-    Raices.h
+
+
 )
 
 target_link_libraries(BitByBit

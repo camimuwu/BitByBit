@@ -8,7 +8,6 @@
 #include "Division.h"
 #include "Multiplicacion.h"
 #include "Potencia.h"
-#include "Raices.h"
 
 // Clase MainWindow que representa la ventana principal de la aplicación
 QT_BEGIN_NAMESPACE
@@ -54,7 +53,6 @@ private:
     Division division;
     Multiplicacion multiplicacion;
     Potencia potencia;
-    Raices raices;
 // Funciones privadas para manejar el juego
     void iniciarJuego(int operacion);
     void generarPregunta();
