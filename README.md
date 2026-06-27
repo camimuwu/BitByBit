@@ -35,11 +35,12 @@ Documentos adicionales y anexo:
     4. [Division](https://github.com/user-attachments/assets/37a6d3da-1dab-4a19-84cf-c810b6c72c30)
     5. [Potencia](https://github.com/user-attachments/assets/7df2e63c-55aa-4fc8-8212-4d9ae2d714b7)
     6. [Raíces](https://github.com/user-attachments/assets/5c656ef2-dadf-4920-823b-ab65cb4b0d7e)
+    7. [Video interfaz visual](https://github.com/user-attachments/assets/bd7ec918-3c40-47c7-aae9-430da03ab478)
 
-7. [Codigo Base]
+8. [Codigo Base]
 ![image alt](https://github.com/camimuwu/BitByBit/blob/166423d7a3f317f615bd2bdcb22718bb5e080902/CodigoBase.c%20-%20BitByBit%20-%20Visual%20Studio%20Code%204_24_2026%209_06_22%20PM.png)
 ![image alt](https://github.com/camimuwu/BitByBit/blob/ec1d18059249956191d450e5ea815eafe5b31812/CodigoBase.cpp%20-%20BitByBit%20-%20Visual%20Studio%20Code.png)
-
+![image alt](https://github.com/camimuwu/BitByBit/blob/512ea52231bb31c72bd8af405a4b0bb90f395ace/mainwindows.cpp%20-%20BitByBit%20-%20Visual%20Studio%20Code.png)
 
 
 
