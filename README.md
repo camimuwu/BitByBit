@@ -5,8 +5,8 @@ Objetivo general del proyecto:
     Nuestro objetivo general es a través de ejercicios progresivos en un límite de tiempo consolidar conceptos clave fundamentales en la gran parte de carreras universitarias.
 
 Objetivos del proyecto: 
-    Nuestros objetivos específicos del proyecto para este Hito 2 son: Pasar el código del lenguaje C al lenguaje C++, crear clase base y clases hijas, añadir constructores, destructores, atributos y métodos, mejorar la funcionalidad y ejecución del límite de tiempo. 
-
+    Nuestros objetivos específicos del proyecto para este Hito 3 es: Implementar Qt para obtener una interfaz visual
+    
 Roles: 
     Isa -> Programadora
     Mari -> Programadora
@@ -20,10 +20,10 @@ Definición de roles:
     Cami -> Encargada de la administración del trabajo en GitHub, incluyendo la creación y seguimiento de issues, y actualización del project board.  
 
 Avances logrados:
-    Implementación del código en C++, uso de herencia en clases y mejor ejecución del tiempo. 
+    Implementación de Qt, obtener interfaz visual de las operaciones y del tiempo. 
 
 Próximos pasos: 
-    Implementar el uso de Qt para obtener una interfaz visual, mostrar en pantalla que el tiempo corre en paralelo a las preguntas.
+    Esperar nota final del proyecto.
 
 Referencias: 
     [Video utilizado para el tiempo](https://vt.tiktok.com/ZS9LJhd2n/)
